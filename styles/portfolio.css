@@ -18,8 +18,25 @@ body{
     padding: 15px 35px;
        
 }
+.section_title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.section_description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
 .main_container{
     background: #FFF8F3;
+    background: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
    
 }
 
@@ -65,23 +82,51 @@ body{
 .banner_container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 30px 30px 30px 150px;
 
     
 }
 .banner_content{
+    max-width: 500px;
 
 }
 .banner_greeding{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
 
 }
 .banner_title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
 
 }
 .banner_description{
+    max-width: ;
 
 }
 .banner_img{
     width: 500px;
+
+}
+/* Main Section Styles*/ 
+/* About Section Styles*/ 
+.about_container{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0 ;
+
+}
+.section_title{
+    
+}
+.section_description{
 
 }
