@@ -114,6 +114,7 @@ body{
 .banner_img{
     width: 500px;
 
+
 }
 /* Main Section Styles*/
 .main_container{
@@ -159,4 +160,16 @@ body{
     font-size: 20px;
     font-weight: 700;
 
+}
+/* What I Do Related Style */
+.What_i_do_container{
+
+}
+#what_i_do_description{
+    padding: 30px 150px ;
+}
+
+.skills_container{
+    display: flex;
+    justify-content: space-between;
 }
