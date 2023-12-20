@@ -121,6 +121,9 @@ body{
     max-width: 1140px;
     margin: 0 auto;
 } 
+main section{
+    margin-top: 130px;
+}
 /* About Section Styles*/ 
 .about_container{
     padding: 130px;
@@ -169,7 +172,46 @@ body{
     padding: 30px 150px ;
 }
 
+/*Skill Related Styles*/
+
 .skills_container{
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
+    
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+.skill_pic{
+
+}
+.skill_title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.skill_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+
+}
+/*Resume Related Style*/
+.resume_container{
+
+}
+.resume_colum{
+
+}
+.resume_colum_title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;    
+
 }
