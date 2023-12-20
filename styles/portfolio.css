@@ -177,6 +177,7 @@ main section{
 .skills_container{
     display: flex;
     gap: 24px;
+}
     
 
 .skill{
@@ -204,7 +205,14 @@ main section{
 }
 /*Resume Related Style*/
 .resume_container{
+    display: flex;
+    gap: 50px;
+    
+    
 
+}
+.resume_container hr{
+    margin: 30px;
 }
 .resume_colum{
 
@@ -214,4 +222,42 @@ main section{
     font-size: 30px;
     font-weight: 700;    
 
+}
+
+
+.resume_item{
+
+}
+
+.resume_item_ttle{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+
+    
+}
+
+
+
+.resume_item_institue{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+
+}
+.resume_item_description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+.download_cv{
+    text-align: center;
+    mask-type: 50PX;
 }
